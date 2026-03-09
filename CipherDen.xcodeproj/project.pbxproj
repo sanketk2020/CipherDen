@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		5D6015F92F23408A00C67618 /* RNCryptor in Frameworks */ = {isa = PBXBuildFile; productRef = 5D6015F82F23408A00C67618 /* RNCryptor */; };
-		DDC4A29E2F5D71BC00694727 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC4A2952F5D71BC00694727 /* Assets.xcassets */; };
-		DDC4A29F2F5D71BC00694727 /* CipherDenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC4A2962F5D71BC00694727 /* CipherDenApp.swift */; };
-		DDC4A2A02F5D71BC00694727 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC4A2972F5D71BC00694727 /* ContentView.swift */; };
-		DDC4A2A12F5D71BC00694727 /* CopyToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC4A2982F5D71BC00694727 /* CopyToastView.swift */; };
-		DDC4A2A22F5D71BC00694727 /* CryptoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC4A2992F5D71BC00694727 /* CryptoViewModel.swift */; };
-		DDC4A2A32F5D71BC00694727 /* EditableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC4A29A2F5D71BC00694727 /* EditableTextView.swift */; };
-		DDC4A2A42F5D71BC00694727 /* ReadOnlyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC4A29B2F5D71BC00694727 /* ReadOnlyTextView.swift */; };
-		DDC4A2A52F5D71BC00694727 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC4A29C2F5D71BC00694727 /* Utility.swift */; };
+		DDC07AC02F5F3E7F00E27DAC /* CipherDenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC07AB12F5F3E7F00E27DAC /* CipherDenApp.swift */; };
+		DDC07AC12F5F3E7F00E27DAC /* CopyToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC07AB32F5F3E7F00E27DAC /* CopyToastView.swift */; };
+		DDC07AC22F5F3E7F00E27DAC /* EditableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC07AB42F5F3E7F00E27DAC /* EditableTextView.swift */; };
+		DDC07AC32F5F3E7F00E27DAC /* ReadOnlyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC07AB52F5F3E7F00E27DAC /* ReadOnlyTextView.swift */; };
+		DDC07AC42F5F3E7F00E27DAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC07AB92F5F3E7F00E27DAC /* ContentView.swift */; };
+		DDC07AC52F5F3E7F00E27DAC /* CryptoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC07ABA2F5F3E7F00E27DAC /* CryptoViewModel.swift */; };
+		DDC07AC62F5F3E7F00E27DAC /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC07ABD2F5F3E7F00E27DAC /* Utility.swift */; };
+		DDC07AC72F5F3E7F00E27DAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC07AB72F5F3E7F00E27DAC /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,15 +39,23 @@
 		5D6015CB2F233FE600C67618 /* CipherDen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CipherDen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D6015D82F233FE800C67618 /* CipherDenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CipherDenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D6015E22F233FE800C67618 /* CipherDenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CipherDenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDC4A2952F5D71BC00694727 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DDC4A2962F5D71BC00694727 /* CipherDenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CipherDenApp.swift; sourceTree = "<group>"; };
-		DDC4A2972F5D71BC00694727 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DDC4A2982F5D71BC00694727 /* CopyToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyToastView.swift; sourceTree = "<group>"; };
-		DDC4A2992F5D71BC00694727 /* CryptoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewModel.swift; sourceTree = "<group>"; };
-		DDC4A29A2F5D71BC00694727 /* EditableTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableTextView.swift; sourceTree = "<group>"; };
-		DDC4A29B2F5D71BC00694727 /* ReadOnlyTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadOnlyTextView.swift; sourceTree = "<group>"; };
-		DDC4A29C2F5D71BC00694727 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		DDC07AB12F5F3E7F00E27DAC /* CipherDenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CipherDenApp.swift; sourceTree = "<group>"; };
+		DDC07AB32F5F3E7F00E27DAC /* CopyToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyToastView.swift; sourceTree = "<group>"; };
+		DDC07AB42F5F3E7F00E27DAC /* EditableTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableTextView.swift; sourceTree = "<group>"; };
+		DDC07AB52F5F3E7F00E27DAC /* ReadOnlyTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadOnlyTextView.swift; sourceTree = "<group>"; };
+		DDC07AB72F5F3E7F00E27DAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDC07AB92F5F3E7F00E27DAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DDC07ABA2F5F3E7F00E27DAC /* CryptoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewModel.swift; sourceTree = "<group>"; };
+		DDC07ABD2F5F3E7F00E27DAC /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DDC07AC82F5F3F1900E27DAC /* Preview */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Preview;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5D6015C82F233FE600C67618 /* Frameworks */ = {
@@ -78,7 +86,7 @@
 		5D6015C22F233FE600C67618 = {
 			isa = PBXGroup;
 			children = (
-				DDC4A29D2F5D71BC00694727 /* CipherDen */,
+				DDC07ABF2F5F3E7F00E27DAC /* CipherDen */,
 				5D6015CC2F233FE600C67618 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,17 +101,66 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DDC4A29D2F5D71BC00694727 /* CipherDen */ = {
+		DDC07AB22F5F3E7F00E27DAC /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				DDC4A2952F5D71BC00694727 /* Assets.xcassets */,
-				DDC4A2962F5D71BC00694727 /* CipherDenApp.swift */,
-				DDC4A2972F5D71BC00694727 /* ContentView.swift */,
-				DDC4A2982F5D71BC00694727 /* CopyToastView.swift */,
-				DDC4A2992F5D71BC00694727 /* CryptoViewModel.swift */,
-				DDC4A29A2F5D71BC00694727 /* EditableTextView.swift */,
-				DDC4A29B2F5D71BC00694727 /* ReadOnlyTextView.swift */,
-				DDC4A29C2F5D71BC00694727 /* Utility.swift */,
+				DDC07AB12F5F3E7F00E27DAC /* CipherDenApp.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		DDC07AB62F5F3E7F00E27DAC /* HelperView */ = {
+			isa = PBXGroup;
+			children = (
+				DDC07AB32F5F3E7F00E27DAC /* CopyToastView.swift */,
+				DDC07AB42F5F3E7F00E27DAC /* EditableTextView.swift */,
+				DDC07AB52F5F3E7F00E27DAC /* ReadOnlyTextView.swift */,
+			);
+			path = HelperView;
+			sourceTree = "<group>";
+		};
+		DDC07AB82F5F3E7F00E27DAC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DDC07AC82F5F3F1900E27DAC /* Preview */,
+				DDC07AB72F5F3E7F00E27DAC /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DDC07ABB2F5F3E7F00E27DAC /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				DDC07AB92F5F3E7F00E27DAC /* ContentView.swift */,
+				DDC07ABA2F5F3E7F00E27DAC /* CryptoViewModel.swift */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
+		DDC07ABC2F5F3E7F00E27DAC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DDC07ABB2F5F3E7F00E27DAC /* ContentView */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		DDC07ABE2F5F3E7F00E27DAC /* Utillity */ = {
+			isa = PBXGroup;
+			children = (
+				DDC07ABD2F5F3E7F00E27DAC /* Utility.swift */,
+			);
+			path = Utillity;
+			sourceTree = "<group>";
+		};
+		DDC07ABF2F5F3E7F00E27DAC /* CipherDen */ = {
+			isa = PBXGroup;
+			children = (
+				DDC07AB22F5F3E7F00E27DAC /* Base */,
+				DDC07AB62F5F3E7F00E27DAC /* HelperView */,
+				DDC07AB82F5F3E7F00E27DAC /* Resources */,
+				DDC07ABC2F5F3E7F00E27DAC /* UI */,
+				DDC07ABE2F5F3E7F00E27DAC /* Utillity */,
 			);
 			path = CipherDen;
 			sourceTree = "<group>";
@@ -122,6 +179,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DDC07AC82F5F3F1900E27DAC /* Preview */,
 			);
 			name = CipherDen;
 			packageProductDependencies = (
@@ -223,7 +283,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDC4A29E2F5D71BC00694727 /* Assets.xcassets in Resources */,
+				DDC07AC72F5F3E7F00E27DAC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,13 +308,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDC4A29F2F5D71BC00694727 /* CipherDenApp.swift in Sources */,
-				DDC4A2A02F5D71BC00694727 /* ContentView.swift in Sources */,
-				DDC4A2A12F5D71BC00694727 /* CopyToastView.swift in Sources */,
-				DDC4A2A22F5D71BC00694727 /* CryptoViewModel.swift in Sources */,
-				DDC4A2A32F5D71BC00694727 /* EditableTextView.swift in Sources */,
-				DDC4A2A42F5D71BC00694727 /* ReadOnlyTextView.swift in Sources */,
-				DDC4A2A52F5D71BC00694727 /* Utility.swift in Sources */,
+				DDC07AC02F5F3E7F00E27DAC /* CipherDenApp.swift in Sources */,
+				DDC07AC12F5F3E7F00E27DAC /* CopyToastView.swift in Sources */,
+				DDC07AC22F5F3E7F00E27DAC /* EditableTextView.swift in Sources */,
+				DDC07AC32F5F3E7F00E27DAC /* ReadOnlyTextView.swift in Sources */,
+				DDC07AC42F5F3E7F00E27DAC /* ContentView.swift in Sources */,
+				DDC07AC52F5F3E7F00E27DAC /* CryptoViewModel.swift in Sources */,
+				DDC07AC62F5F3E7F00E27DAC /* Utility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
