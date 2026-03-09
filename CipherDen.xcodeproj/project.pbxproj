@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D6015F92F23408A00C67618 /* RNCryptor in Frameworks */ = {isa = PBXBuildFile; productRef = 5D6015F82F23408A00C67618 /* RNCryptor */; };
+		DDC4A29E2F5D71BC00694727 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC4A2952F5D71BC00694727 /* Assets.xcassets */; };
+		DDC4A29F2F5D71BC00694727 /* CipherDenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC4A2962F5D71BC00694727 /* CipherDenApp.swift */; };
+		DDC4A2A02F5D71BC00694727 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC4A2972F5D71BC00694727 /* ContentView.swift */; };
+		DDC4A2A12F5D71BC00694727 /* CopyToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC4A2982F5D71BC00694727 /* CopyToastView.swift */; };
+		DDC4A2A22F5D71BC00694727 /* CryptoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC4A2992F5D71BC00694727 /* CryptoViewModel.swift */; };
+		DDC4A2A32F5D71BC00694727 /* EditableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC4A29A2F5D71BC00694727 /* EditableTextView.swift */; };
+		DDC4A2A42F5D71BC00694727 /* ReadOnlyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC4A29B2F5D71BC00694727 /* ReadOnlyTextView.swift */; };
+		DDC4A2A52F5D71BC00694727 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC4A29C2F5D71BC00694727 /* Utility.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D6015D92F233FE800C67618 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D6015C32F233FE600C67618 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D6015CA2F233FE600C67618;
+			remoteInfo = CipherDen;
+		};
+		5D6015E32F233FE800C67618 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D6015C32F233FE600C67618 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D6015CA2F233FE600C67618;
+			remoteInfo = CipherDen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D6015CB2F233FE600C67618 /* CipherDen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CipherDen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D6015D82F233FE800C67618 /* CipherDenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CipherDenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D6015E22F233FE800C67618 /* CipherDenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CipherDenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC4A2952F5D71BC00694727 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDC4A2962F5D71BC00694727 /* CipherDenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CipherDenApp.swift; sourceTree = "<group>"; };
+		DDC4A2972F5D71BC00694727 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DDC4A2982F5D71BC00694727 /* CopyToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyToastView.swift; sourceTree = "<group>"; };
+		DDC4A2992F5D71BC00694727 /* CryptoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewModel.swift; sourceTree = "<group>"; };
+		DDC4A29A2F5D71BC00694727 /* EditableTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableTextView.swift; sourceTree = "<group>"; };
+		DDC4A29B2F5D71BC00694727 /* ReadOnlyTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadOnlyTextView.swift; sourceTree = "<group>"; };
+		DDC4A29C2F5D71BC00694727 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D6015C82F233FE600C67618 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D6015F92F23408A00C67618 /* RNCryptor in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D6015D52F233FE800C67618 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D6015DF2F233FE800C67618 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D6015C22F233FE600C67618 = {
+			isa = PBXGroup;
+			children = (
+				DDC4A29D2F5D71BC00694727 /* CipherDen */,
+				5D6015CC2F233FE600C67618 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D6015CC2F233FE600C67618 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D6015CB2F233FE600C67618 /* CipherDen.app */,
+				5D6015D82F233FE800C67618 /* CipherDenTests.xctest */,
+				5D6015E22F233FE800C67618 /* CipherDenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDC4A29D2F5D71BC00694727 /* CipherDen */ = {
+			isa = PBXGroup;
+			children = (
+				DDC4A2952F5D71BC00694727 /* Assets.xcassets */,
+				DDC4A2962F5D71BC00694727 /* CipherDenApp.swift */,
+				DDC4A2972F5D71BC00694727 /* ContentView.swift */,
+				DDC4A2982F5D71BC00694727 /* CopyToastView.swift */,
+				DDC4A2992F5D71BC00694727 /* CryptoViewModel.swift */,
+				DDC4A29A2F5D71BC00694727 /* EditableTextView.swift */,
+				DDC4A29B2F5D71BC00694727 /* ReadOnlyTextView.swift */,
+				DDC4A29C2F5D71BC00694727 /* Utility.swift */,
+			);
+			path = CipherDen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D6015CA2F233FE600C67618 /* CipherDen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D6015EC2F233FE800C67618 /* Build configuration list for PBXNativeTarget "CipherDen" */;
+			buildPhases = (
+				5D6015C72F233FE600C67618 /* Sources */,
+				5D6015C82F233FE600C67618 /* Frameworks */,
+				5D6015C92F233FE600C67618 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CipherDen;
+			packageProductDependencies = (
+				5D6015F82F23408A00C67618 /* RNCryptor */,
+			);
+			productName = CipherDen;
+			productReference = 5D6015CB2F233FE600C67618 /* CipherDen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D6015D72F233FE800C67618 /* CipherDenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D6015EF2F233FE800C67618 /* Build configuration list for PBXNativeTarget "CipherDenTests" */;
+			buildPhases = (
+				5D6015D42F233FE800C67618 /* Sources */,
+				5D6015D52F233FE800C67618 /* Frameworks */,
+				5D6015D62F233FE800C67618 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D6015DA2F233FE800C67618 /* PBXTargetDependency */,
+			);
+			name = CipherDenTests;
+			packageProductDependencies = (
+			);
+			productName = CipherDenTests;
+			productReference = 5D6015D82F233FE800C67618 /* CipherDenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D6015E12F233FE800C67618 /* CipherDenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D6015F22F233FE800C67618 /* Build configuration list for PBXNativeTarget "CipherDenUITests" */;
+			buildPhases = (
+				5D6015DE2F233FE800C67618 /* Sources */,
+				5D6015DF2F233FE800C67618 /* Frameworks */,
+				5D6015E02F233FE800C67618 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D6015E42F233FE800C67618 /* PBXTargetDependency */,
+			);
+			name = CipherDenUITests;
+			packageProductDependencies = (
+			);
+			productName = CipherDenUITests;
+			productReference = 5D6015E22F233FE800C67618 /* CipherDenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D6015C32F233FE600C67618 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					5D6015CA2F233FE600C67618 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					5D6015D72F233FE800C67618 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 5D6015CA2F233FE600C67618;
+					};
+					5D6015E12F233FE800C67618 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 5D6015CA2F233FE600C67618;
+					};
+				};
+			};
+			buildConfigurationList = 5D6015C62F233FE600C67618 /* Build configuration list for PBXProject "CipherDen" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D6015C22F233FE600C67618;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5D6015F72F23408A00C67618 /* XCRemoteSwiftPackageReference "RNCryptor" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5D6015CC2F233FE600C67618 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D6015CA2F233FE600C67618 /* CipherDen */,
+				5D6015D72F233FE800C67618 /* CipherDenTests */,
+				5D6015E12F233FE800C67618 /* CipherDenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D6015C92F233FE600C67618 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC4A29E2F5D71BC00694727 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D6015D62F233FE800C67618 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D6015E02F233FE800C67618 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D6015C72F233FE600C67618 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC4A29F2F5D71BC00694727 /* CipherDenApp.swift in Sources */,
+				DDC4A2A02F5D71BC00694727 /* ContentView.swift in Sources */,
+				DDC4A2A12F5D71BC00694727 /* CopyToastView.swift in Sources */,
+				DDC4A2A22F5D71BC00694727 /* CryptoViewModel.swift in Sources */,
+				DDC4A2A32F5D71BC00694727 /* EditableTextView.swift in Sources */,
+				DDC4A2A42F5D71BC00694727 /* ReadOnlyTextView.swift in Sources */,
+				DDC4A2A52F5D71BC00694727 /* Utility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D6015D42F233FE800C67618 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D6015DE2F233FE800C67618 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D6015DA2F233FE800C67618 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D6015CA2F233FE600C67618 /* CipherDen */;
+			targetProxy = 5D6015D92F233FE800C67618 /* PBXContainerItemProxy */;
+		};
+		5D6015E42F233FE800C67618 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D6015CA2F233FE600C67618 /* CipherDen */;
+			targetProxy = 5D6015E32F233FE800C67618 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5D6015EA2F233FE800C67618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D6015EB2F233FE800C67618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5D6015ED2F233FE800C67618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = "";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hyperlink.Development;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5D6015EE2F233FE800C67618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = "";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hyperlink.Development;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5D6015F02F233FE800C67618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CipherDenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CipherDen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CipherDen";
+			};
+			name = Debug;
+		};
+		5D6015F12F233FE800C67618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CipherDenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CipherDen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CipherDen";
+			};
+			name = Release;
+		};
+		5D6015F32F233FE800C67618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CipherDenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CipherDen;
+			};
+			name = Debug;
+		};
+		5D6015F42F233FE800C67618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CipherDenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CipherDen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D6015C62F233FE600C67618 /* Build configuration list for PBXProject "CipherDen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D6015EA2F233FE800C67618 /* Debug */,
+				5D6015EB2F233FE800C67618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D6015EC2F233FE800C67618 /* Build configuration list for PBXNativeTarget "CipherDen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D6015ED2F233FE800C67618 /* Debug */,
+				5D6015EE2F233FE800C67618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D6015EF2F233FE800C67618 /* Build configuration list for PBXNativeTarget "CipherDenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D6015F02F233FE800C67618 /* Debug */,
+				5D6015F12F233FE800C67618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D6015F22F233FE800C67618 /* Build configuration list for PBXNativeTarget "CipherDenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D6015F32F233FE800C67618 /* Debug */,
+				5D6015F42F233FE800C67618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5D6015F72F23408A00C67618 /* XCRemoteSwiftPackageReference "RNCryptor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RNCryptor/RNCryptor";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5D6015F82F23408A00C67618 /* RNCryptor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D6015F72F23408A00C67618 /* XCRemoteSwiftPackageReference "RNCryptor" */;
+			productName = RNCryptor;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5D6015C32F233FE600C67618 /* Project object */;
+}
